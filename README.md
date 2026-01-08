@@ -20,10 +20,10 @@ In civil engineering, concrete strength is the most important factor. This proje
 | **Mean Absolute Error (MAE)** | **5.73 MPa** | On average, the model's predictions are within ~5.7 units of the actual strength. |
 
 ## 🛠️ Tech Stack
-* **Language:** Python [cite: 2025-12-27]
-* **Frameworks:** TensorFlow, Keras [cite: 2025-12-27]
-* **Data Processing:** Pandas, NumPy, Scikit-Learn [cite: 2025-12-27]
-* **Visualization:** Matplotlib, Seaborn [cite: 2025-12-27]
+* **Language:** Python [cite: 
+* **Frameworks:** TensorFlow, Keras 
+* **Data Processing:** Pandas, NumPy, Scikit-Learn 
+* **Visualization:** Matplotlib, Seaborn 
 
 ## ☁️ Deployment Plan
 The final model is designed to be saved as an `.h5` file and is ready for deployment on cloud platforms like **AWS, GCP, or Azure** [cite: 2025-12-21].
