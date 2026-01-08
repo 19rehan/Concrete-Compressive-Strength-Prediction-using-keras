@@ -17,7 +17,7 @@ In civil engineering, concrete strength is the most important factor. This proje
 | Metric | Final Result | Logic |
 | :--- | :--- | :--- |
 | **R-squared (R2) Score** | **77.59%** | Indicates that the model explains ~78% of the variance in concrete strength. |
-| **Mean Absolute Error (MAE)** | **5.73 MPa** | On average, the model's predictions are within ~5.7 units of the actual strength [cite: 2026-01-01]. |
+| **Mean Absolute Error (MAE)** | **5.73 MPa** | On average, the model's predictions are within ~5.7 units of the actual strength. |
 
 ## 🛠️ Tech Stack
 * **Language:** Python [cite: 2025-12-27]
