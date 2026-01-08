@@ -11,7 +11,7 @@ In civil engineering, concrete strength is the most important factor. This proje
     * Applied **Standardization** (`StandardScaler`) to bring all features (kg/m³, days) to a common scale with Mean=0 and Std=1.
 * **Model Architecture:** * Built using the **Keras Sequential API**.
     * Consists of an input layer (8 features), two hidden dense layers (32 and 16 neurons), and a single output neuron.
-    * Uses **ReLU** activation for non-linearity and **Adam** optimizer for efficient weight updates [cite: 2026-01-01].
+    * Uses **ReLU** activation for non-linearity and **Adam** optimizer for efficient weight updates.
 
 ## 📊 Performance Results
 | Metric | Final Result | Logic |
