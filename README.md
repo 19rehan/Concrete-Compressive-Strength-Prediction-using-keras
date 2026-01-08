@@ -6,7 +6,7 @@ This project utilizes a **Deep Learning Neural Network** to predict the compress
 In civil engineering, concrete strength is the most important factor. This project automates the prediction process using a 3-layer Artificial Neural Network (ANN).
 
 ## 🧠 Key Logic & Methodology
-* **Data Auditing:** Performed a full audit of ingredients like Cement, Blast Furnace Slag, and Water to ensure data integrity [cite: 2026-01-01].
+* **Data Auditing:** Performed a full audit of ingredients like Cement, Blast Furnace Slag, and Water to ensure data integrity.
 * **Feature Engineering:** * Addressed high skewness (**3.26**) in the **Age** feature by applying a `log1p` transformation [cite: 2026-01-01].
     * Applied **Standardization** (`StandardScaler`) to bring all features (kg/m³, days) to a common scale with Mean=0 and Std=1 [cite: 2026-01-01].
 * **Model Architecture:** * Built using the **Keras Sequential API** [cite: 2026-01-01].
