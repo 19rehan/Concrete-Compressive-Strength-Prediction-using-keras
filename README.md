@@ -8,7 +8,7 @@ In civil engineering, concrete strength is the most important factor. This proje
 ## 🧠 Key Logic & Methodology
 * **Data Auditing:** Performed a full audit of ingredients like Cement, Blast Furnace Slag, and Water to ensure data integrity.
 * **Feature Engineering:** * Addressed high skewness (**3.26**) in the **Age** feature by applying a `log1p` transformation.
-    * Applied **Standardization** (`StandardScaler`) to bring all features (kg/m³, days) to a common scale with Mean=0 and Std=1 [cite: 2026-01-01].
+    * Applied **Standardization** (`StandardScaler`) to bring all features (kg/m³, days) to a common scale with Mean=0 and Std=1.
 * **Model Architecture:** * Built using the **Keras Sequential API** [cite: 2026-01-01].
     * Consists of an input layer (8 features), two hidden dense layers (32 and 16 neurons), and a single output neuron [cite: 2026-01-01].
     * Uses **ReLU** activation for non-linearity and **Adam** optimizer for efficient weight updates [cite: 2026-01-01].
