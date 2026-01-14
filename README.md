@@ -10,7 +10,7 @@ In civil engineering, concrete strength is the most important factor. This proje
 * **Feature Engineering:** * Addressed high skewness (**3.26**) in the **Age** feature by applying a `log1p` transformation.
     * Applied **Standardization** (`StandardScaler`) to bring all features (kg/m³, days) to a common scale with Mean=0 and Std=1.
 * **Model Architecture:** * Built using the **Keras Sequential API**.
-    * Consists of an input layer (8 features), two hidden dense layers (32 and 16 neurons), and a single output neuro
+    * Consists of an input layer (8 features), two hidden dense layers (32 and 16 neurons), and a single output neuron.
     * Uses **ReLU** activation for non-linearity and **Adam** optimizer for efficient weight updates.
 
 ## 📊 Performance Results
