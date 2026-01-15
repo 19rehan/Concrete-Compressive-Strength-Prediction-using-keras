@@ -1,4 +1,4 @@
-# 🏗️ *Concrete Compressive Strength Prediction
+# 🏗️ *Concrete Compressive Strength Prediction*
 
 This project utilizes a **Deep Learning Neural Network** to predict the compressive strength of concrete. By analyzing the chemical composition and age of the mixture, the model provides a fast and accurate estimation, reducing the need for traditional 28-day physical testing.
 
